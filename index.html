@@ -148,27 +148,35 @@
         </div>
     </section>
 
-    <!-- DISTRIBUTOR -->
-    <section id="distributor" class="distributor hidden">
-        <div class="section-title">
-            <h2>Become A <span class="highlight">Distributor</span></h2>
+   <!-- DISTRIBUTOR -->
+<section id="distributor" class="distributor hidden">
+    <div class="section-title">
+        <h2>Become A <span class="highlight">Distributor</span></h2>
+    </div>
+    
+    <!-- Yahan FormSubmit ka action link laga diya hai -->
+    <form action="https://formsubmit.co/sipsipnoodles00@gmail.com" method="POST">
+        
+        <!-- Ye form submit hone ke baad wapas teri site par le aayega -->
+        <input type="hidden" name="_next" value="https://sipsipnoodles.netlify.app/">
+        <!-- Ye unke irritating captcha ko hide karne ke liye hai -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <div class="input-group">
+            <input type="text" name="Name" placeholder="Your Name" required>
         </div>
-        <form>
-            <div class="input-group">
-                <input type="text" placeholder="Your Name" required>
-            </div>
-            <div class="input-group">
-                <input type="tel" placeholder="Phone Number" required>
-            </div>
-            <div class="input-group">
-                <input type="text" placeholder="City" required>
-            </div>
-            <div class="input-group">
-                <input type="text" placeholder="Business Type" required>
-            </div>
-            <button type="submit" class="btn-primary">Submit Enquiry <i class="fas fa-paper-plane"></i></button>
-        </form>
-    </section>
+        <div class="input-group">
+            <input type="tel" name="Phone" placeholder="Phone Number" required>
+        </div>
+        <div class="input-group">
+            <input type="text" name="City" placeholder="City" required>
+        </div>
+        <div class="input-group">
+            <input type="text" name="Business_Type" placeholder="Business Type" required>
+        </div>
+        <button type="submit" class="btn-primary">Submit Enquiry <i class="fas fa-paper-plane"></i></button>
+    </form>
+</section>
 
     <!-- CONTACT -->
     <section id="contact" class="contact hidden">
