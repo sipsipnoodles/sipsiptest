@@ -59,14 +59,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach(el => observer.observe(el));
 
-// =========================
-// DISTRIBUTOR FORM
-// =========================
-const form = document.querySelector("form");
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    alert("Thank you for your interest in Sip Sip Noodles! Our team will contact you shortly.");
-    form.reset();
+
 });
 
 // =========================
